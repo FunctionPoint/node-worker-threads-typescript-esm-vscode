@@ -9,7 +9,6 @@ export class MyApp
 		worker.on( "message", ( message ) => this.onMessage( message ) );
 		worker.on( "error", ( error ) => this.onError( error ) );
 		worker.on( "exit", ( code ) => this.onExit( code ) );
-
 		console.log( "Main: Sending message to worker." );
 		worker.postMessage( "Hello, worker!" );
 	}

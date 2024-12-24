@@ -13,7 +13,9 @@
 				"kind": "build",
 				"isDefault": true
 			},
-			"runOptions": {	"runOn": "folderOpen" }
+			"runOptions": {
+				"runOn": "folderOpen"
+			}
 		}
 	]
 }
